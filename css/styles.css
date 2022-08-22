@@ -1,5 +1,2 @@
 @import url('reset.css');
-.title {
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 60px;
-}
+@import url('global.css');
