@@ -7,7 +7,7 @@
 	max-width: 1073px;
 	margin: 0 auto;
 	padding: 0 20px;
-	margin-bottom: 140px;
+	margin-bottom: 155px;
 }
 .header__menu {
 	display: flex;
@@ -17,7 +17,7 @@
 	display: flex;
 }
 .header__menu-item {
-	margin-right: 33px;
+	margin-right: 34px;
 }
 .header__menu-item:last-child {
 	margin-right: 0;
@@ -39,19 +39,19 @@
 .header__description {
 	max-width: 508px;
 	margin-right: 30px;
-	padding-top: 30px;
+	padding-top: 17px;
 }
 .header__title {
 	font-weight: 700;
 	font-size: 44px;
 	line-height: 60px;
 	max-width: 440px;
-	margin-bottom: 40px;
+	margin-bottom: 24px;
 }
 .header__text {
 	font-size: 16px;
 	line-height: 24px;
-	margin-bottom: 47px;
+	margin-bottom: 31px;
 }
 .header__download-button {
 	color: #fff;
