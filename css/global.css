@@ -24,7 +24,35 @@ html, body {
 	margin: 0 auto;
 	padding: 0 20px;
 }
-
 .photo {
 	border-radius: 50%;
+}
+
+/* Menu Styles */
+
+.menu {
+	width: 100%;
+	max-width: 1073px;
+	margin: 0 auto;
+	padding: 0 20px;
+	padding-top: 27px;
+	display: flex;
+	justify-content: flex-end;
+}
+.menu__items {
+	display: flex;
+	gap: 34px;
+}
+.menu__link {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 29px;
+	color: #000;
+	transition: color	0.15s;
+}
+.menu__link:hover {
+	color: #FF6464;
+}
+.menu__link--selected {
+	color: #FF6464;
 }

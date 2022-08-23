@@ -1,31 +1,8 @@
 .header {
-	padding-top: 27px;
 	padding-bottom: 71px;
 }
 .header__top {
-	width: 100%;
-	max-width: 1073px;
-	margin: 0 auto;
-	padding: 0 20px;
 	margin-bottom: 155px;
-}
-.header__menu {
-	display: flex;
-	justify-content: flex-end;
-}
-.header__menu-items {
-	display: flex;
-	gap: 34px;
-}
-.header__menu-link {
-	font-weight: 500;
-	font-size: 20px;
-	line-height: 29px;
-	color: #000;
-	transition: color	0.15s;
-}
-.header__menu-link:hover {
-	color: #FF6464;
 }
 .header__content-inner {
 	display: flex;
