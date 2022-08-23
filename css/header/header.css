@@ -15,12 +15,7 @@
 }
 .header__menu-items {
 	display: flex;
-}
-.header__menu-item {
-	margin-right: 34px;
-}
-.header__menu-item:last-child {
-	margin-right: 0;
+	gap: 34px;
 }
 .header__menu-link {
 	font-weight: 500;
