@@ -43,6 +43,13 @@ html, body {
 	line-height: 60px;
 }
 
+/* Standart Text Styles */
+
+.text {
+	font-size: 16px;
+	line-height: 24px;
+}
+
 /* Menu Styles */
 
 .menu {
@@ -120,8 +127,4 @@ html, body {
 	font-size: 20px;
 	line-height: 29px;
 	color: #8695A4;
-}
-.works__item-text {
-	font-size: 16px;
-	line-height: 24px;
 }
