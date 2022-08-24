@@ -1,19 +1,10 @@
 .blog {
-	padding-bottom: 90px;
-}
-.blog__container {
-	width: 100%;
-	max-width: 722px;
-	margin: 0 auto;
-	padding: 0 20px;
+	padding-bottom: 53px;
 }
 .blog-menu {
 	margin-bottom: 106px;
 }
 .blog__title {
-	font-weight: 700;
-	font-size: 44px;
-	line-height: 60px;
 	margin-bottom: 55px;
 }
 .blog__items {
