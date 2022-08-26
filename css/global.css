@@ -147,7 +147,7 @@ html, body {
 /* Menu Burger */
 @media screen and (max-width: 768px) {
 	.menu__items {
-		position: absolute;
+		position: fixed;
 		flex-direction: column;
 		background: #fff;
 		width: 100%;
@@ -160,6 +160,7 @@ html, body {
 	}
 	.menu__items.active {
 		right: 0;
+		display: block;
 	}
 	.menu__item {
 		margin: 25px 0;
