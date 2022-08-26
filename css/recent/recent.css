@@ -16,7 +16,6 @@
 	color: #00A8CC;
 	font-size: 16px;
 }
-
 .recent__posts {
 	display: flex;
 	gap: 20px;
@@ -47,4 +46,26 @@
 .recent__post-about {
 	padding-left: 25px;
 	border-left: 2px solid #21243D;
+}
+
+@media screen and (max-width: 480px) {
+	.recent {
+		padding-bottom: 36px;
+	}
+	.recent__posts {
+		flex-direction: column;
+	}
+	.recent__top {
+		justify-content: center;
+		font-size: 18px;
+	}
+	.recent__link {
+		display: none;
+	}
+	.recent__post-title {
+		font-size: 22px;
+	}
+	.recent__post-info {
+		font-size: 16px;
+	}
 }

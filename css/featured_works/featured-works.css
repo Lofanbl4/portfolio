@@ -10,3 +10,17 @@
 .featured-works__items {
 	row-gap: 46px;
 }
+
+/* Responsive Styles */
+
+@media screen and (max-width: 480px) {
+	.featured-works__title {
+		text-align: center;
+		font-size: 18px;
+		line-height: 1;
+		margin: 22px 0;
+	}
+	.featured-works__items {
+		row-gap: 30px;
+	}
+}

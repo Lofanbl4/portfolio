@@ -41,3 +41,34 @@
 
 /* Responsive styles */
 
+@media screen and (max-width: 480px) {
+	.header {
+		padding-bottom: 51px;
+	}
+	.header__top {
+		margin-bottom: 50px;
+	}
+	.header__content-inner {
+		flex-direction: column-reverse;
+		align-items: center;
+		text-align: center;
+	}
+	.header__description {
+		margin-right: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.header__img {
+		max-width: 180px;
+	}
+	.header__title {
+		max-width: 312px;
+		margin-bottom: 21px;
+		font-size: 32px;
+		line-height: 40px;
+	}
+	.header__text {
+		margin-bottom: 27px;
+	}
+}

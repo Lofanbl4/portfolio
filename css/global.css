@@ -141,6 +141,34 @@ html, body {
 	line-height: 29px;
 	color: #8695A4;
 }
+/* Responsive Styles */
+
+@media screen and (max-width: 480px) {
+	.works {
+		row-gap: 22px;
+	}
+	.works__item {
+		flex-direction: column;
+		padding-bottom: 17px;
+	}
+	.works__img-box {
+		width: 100%;
+	}
+	.works__img {
+		width: 100%;
+	}
+	.works__item-title {
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.works__item-type, .works__item-date {
+		font-size: 16px;
+	}
+	
+	.title {
+		font-size: 30px;
+	}
+}
 
 /* Responsive Styles */
 
@@ -160,7 +188,6 @@ html, body {
 	}
 	.menu__items.active {
 		right: 0;
-		display: block;
 	}
 	.menu__item {
 		margin: 25px 0;

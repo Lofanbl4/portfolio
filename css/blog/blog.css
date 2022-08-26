@@ -38,3 +38,25 @@
 	border-left: 2px solid #21243D;
 	color: #8695A4;
 }
+
+
+@media screen and (max-width: 480px) {
+	.blog-menu {
+		margin-bottom: 35px;
+	}
+	.blog__title {
+		margin-bottom: 16px;
+	}
+	.blog__item {
+		padding-bottom: 24px;
+	}
+	.blog__item-title {
+		font-size: 26px;
+		line-height: 38px;
+		margin-bottom: 5px;
+	}
+	.blog__item-info {
+		font-size: 16px;
+		line-height: 18px;
+	}
+}
