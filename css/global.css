@@ -60,10 +60,15 @@ html, body {
 	padding-top: 27px;
 	display: flex;
 	justify-content: flex-end;
+	align-items: center;
+}
+.menu__burger {
+	display: none;
 }
 .menu__items {
 	display: flex;
 	gap: 34px;
+	transition: 0.3s;
 }
 .menu__link {
 	font-weight: 500;
@@ -77,6 +82,14 @@ html, body {
 }
 .menu__link--selected {
 	color: #FF6464;
+}
+.menu__burger-bar {
+	display: block;
+	width: 30px;
+	height: 2px;
+	background: #21243D;
+	margin: 10px auto;
+	transition: 0.3s;
 }
 
 /* Works Styles */
@@ -127,4 +140,44 @@ html, body {
 	font-size: 20px;
 	line-height: 29px;
 	color: #8695A4;
+}
+
+/* Responsive Styles */
+
+/* Menu Burger */
+@media screen and (max-width: 768px) {
+	.menu__items {
+		position: absolute;
+		flex-direction: column;
+		background: #fff;
+		width: 100%;
+		text-align: center;
+		top: 80px;
+		transition: 0.3s;
+		right: -200%;
+		box-shadow: 0 10px 27px rgba(0, 0, 0, 0.5);
+		gap: 0;
+	}
+	.menu__items.active {
+		right: 0;
+	}
+	.menu__item {
+		margin: 25px 0;
+	}
+	.menu__link {
+		display: block;
+	}
+	.menu__burger {
+		display: block;
+		cursor: pointer;
+	}
+	.menu__burger.active .menu__burger-bar:nth-child(2) {
+		opacity: 0;
+	}
+	.menu__burger.active .menu__burger-bar:nth-child(1) {
+		transform: translateY(14px) rotate(45deg);
+	}
+	.menu__burger.active .menu__burger-bar:nth-child(3) {
+		transform: translateY(-10px) rotate(-45deg);
+	}
 }
